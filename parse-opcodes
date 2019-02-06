@@ -47,6 +47,7 @@ causes = [
   (0x0C, 'fetch page fault'),
   (0x0D, 'load page fault'),
   (0x0F, 'store page fault'),
+  (0x10, 'out_of_bounds'),
 ]
 
 csrs = [
@@ -207,6 +208,9 @@ csrs = [
   (0xF12, 'marchid'),
   (0xF13, 'mimpid'),
   (0xF14, 'mhartid'),
+
+  # Bounds
+  (0x7C0, 'bounds'),
 ]
 
 csrs32 = [
