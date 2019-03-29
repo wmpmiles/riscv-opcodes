@@ -6,3 +6,17 @@ lbdl rd      rs1 imm12          14..12=6 6..2=0x19 1..0=3
 
 sbdu imm12hi rs1 rs2   imm12lo  14..12=2 6..2=0x19 1..0=3
 sbdl imm12hi rs1 rs2   imm12lo  14..12=3 6..2=0x19 1..0=3
+
+lb.b  rd rs1 imm12 14..12=0 6..2=0x02 1..0=3
+lh.b  rd rs1 imm12 14..12=1 6..2=0x02 1..0=3
+lw.b  rd rs1 imm12 14..12=2 6..2=0x02 1..0=3
+ld.b  rd rs1 imm12 14..12=3 6..2=0x02 1..0=3
+lbu.b rd rs1 imm12 14..12=4 6..2=0x02 1..0=3
+lhu.b rd rs1 imm12 14..12=5 6..2=0x02 1..0=3
+lwu.b rd rs1 imm12 14..12=6 6..2=0x02 1..0=3
+
+sb.b imm12hi rs1 rs2 imm12lo 14..12=4 6..2=0x08 1..0=3
+sh.b imm12hi rs1 rs2 imm12lo 14..12=5 6..2=0x08 1..0=3
+sw.b imm12hi rs1 rs2 imm12lo 14..12=6 6..2=0x08 1..0=3
+sd.b imm12hi rs1 rs2 imm12lo 14..12=7 6..2=0x08 1..0=3
+
